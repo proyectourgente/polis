@@ -17,7 +17,7 @@ const settings = {
   borderStyleBase: 'solid',
   borderWidthBase: 1,
   fontFamilyMonospace: '"Courier New", monospace',
-  fontFamilySansSerif: '"Helvetica Neue", Helvetica, Arial, sans-serif',
+  fontFamilySansSerif: '"Montserrat", sans-serif',
   fontSizeBase: 14,
   lineHeightBase: 1.428571429,
   lineHeightSmall: 1.3,
