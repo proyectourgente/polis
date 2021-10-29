@@ -197,7 +197,8 @@ img {
   /*border-bottom: 0;*/
   // background: #fafafa;
   /*-webkit-font-smoothing: antialiased;*/
-  font-family: Montserrat Extrabold;
+  font-family: $sans-font;
+  font-weight: 800;
    // prevent clipped right edge and extra padding on left edge on mobile
   padding-left: 0px;
   padding-right: 0px;
