@@ -32,7 +32,7 @@ function get(key) {
 function isDevMode() {
   return devMode;
 }
-const enunciadosfijos = [3]
+let enunciadosfijos = [3]
 module.exports = {
   domainOverride,
   getServerNameWithProtocol,
