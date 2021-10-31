@@ -4,7 +4,7 @@ import * as globals from "./globals";
 import {VictoryAnimation} from "victory";
 
 const Participant = ({ptpt, tweenX, tweenY}) => {
-  let picSize = ptpt.picture_size;
+  let picSize = ptpt.picture_size + 5;
   return (
     <g
       transform={"translate(" + tweenX + "," + tweenY + ")"}>
@@ -17,7 +17,7 @@ const Participant = ({ptpt, tweenX, tweenY}) => {
             cx={0}
             cy={0}
             r={13}
-            stroke={"#03a9f4"}
+            stroke={"#3f4bff"}
             strokeWidth={4}/> :
           ""
       }
@@ -29,6 +29,19 @@ const Participant = ({ptpt, tweenX, tweenY}) => {
         xlinkHref={ptpt.picture || ptpt.pic}
         width={picSize * globals.ptptoiScaleFactor}
         height={picSize * globals.ptptoiScaleFactor}/>
+     { ptpt.fb__fb_name ?  <text 
+        x={-picSize/2 * globals.ptptoiScaleFactor} 
+        y={-picSize/2 * globals.ptptoiScaleFactor}>{ptpt.fb__fb_name}</text> : ""
+     }
+     { ptpt.tw__name ?  <text 
+        x={-picSize/2 * globals.ptptoiScaleFactor} 
+        y={-picSize/2 * globals.ptptoiScaleFactor}>{ptpt.tw__name}</text> : ""
+     }
+     { ptpt.isSelf  ?  <text 
+        x={-picSize/2 * globals.ptptoiScaleFactor} 
+        y={-picSize/2 * globals.ptptoiScaleFactor}>Estás acá</text> : ""
+     }
+
     </g>
   );
 }
@@ -50,7 +63,7 @@ function getKey(ptpt) {
 const GraphParticipants = ({points, ptptois}) => {
 
   if (!points && !ptptois) return null
-
+  console.log("GraphParticipants", points, ptptois);
   return (
     <g id="vis2_participants">
       {
