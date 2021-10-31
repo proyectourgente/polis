@@ -4,7 +4,7 @@ import * as globals from "./globals";
 import {VictoryAnimation} from "victory";
 
 const Participant = ({ptpt, tweenX, tweenY}) => {
-  let picSize = ptpt.picture_size + 5;
+  let picSize = ptpt.picture_size + 10;
   return (
     <g
       transform={"translate(" + tweenX + "," + tweenY + ")"}>
@@ -29,13 +29,13 @@ const Participant = ({ptpt, tweenX, tweenY}) => {
         xlinkHref={ptpt.picture || ptpt.pic}
         width={picSize * globals.ptptoiScaleFactor}
         height={picSize * globals.ptptoiScaleFactor}/>
-     { ptpt.fb__fb_name ?  <text 
+     { ptpt.facebook ?  <text 
         x={-picSize/2 * globals.ptptoiScaleFactor} 
-        y={-picSize/2 * globals.ptptoiScaleFactor}>{ptpt.fb__fb_name}</text> : ""
+        y={-picSize/2 * globals.ptptoiScaleFactor}>{ptpt.facebook.fb_name}</text> : ""
      }
-     { ptpt.tw__name ?  <text 
+     { ptpt.twitter ?  <text 
         x={-picSize/2 * globals.ptptoiScaleFactor} 
-        y={-picSize/2 * globals.ptptoiScaleFactor}>{ptpt.tw__name}</text> : ""
+        y={-picSize/2 * globals.ptptoiScaleFactor}>{ptpt.twitter.name}</text> : ""
      }
      { ptpt.isSelf  ?  <text 
         x={-picSize/2 * globals.ptptoiScaleFactor} 
