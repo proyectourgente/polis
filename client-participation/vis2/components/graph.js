@@ -40,7 +40,6 @@ class Graph extends React.Component {
   }
 
   componentWillReceiveProps(nextProps, nextState) {
-    console.log("componentWillReceiveProps", nextProps);
     if (!nextProps.math) {
       return;
     }

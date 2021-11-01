@@ -124,7 +124,6 @@ const doMapCornerPointer = (corner, xx, yy) => {
 }
 
 const graphUtil = (comments, math, badTids, ptptois) => {
-  console.log("graphUtil", ptptois);
     const allXs = [];
     const allYs = [];
 
