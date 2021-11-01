@@ -35,7 +35,7 @@ export const pastTense = {
 
 export const enableMatrix = false;
 
-export const ptptoiScaleFactor = 0.6;
+export const ptptoiScaleFactor = 0.7;
 
 export const side = 730;
 export const padding = 10;

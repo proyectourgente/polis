@@ -489,8 +489,8 @@ module.exports = ConversationView.extend({
 
     //var voteCountForFacebookPrompt = 6; // 6 means it appears after 7 votes.
 
-    //var votedEnough = this.readReactModel && this.readReactModel.get("voteCount") >= voteCountForFacebookPrompt || false;
-    //okToShow = okToShow && votedEnough;
+    var votedEnough = this.readReactModel && this.readReactModel.get("voteCount") >= voteCountForFacebookPrompt || false;
+    okToShow = true; //okToShow && votedEnough;
 
     if (okToShow) {
       $("#socialButtonsUnderReadReact").fadeIn(1000);
