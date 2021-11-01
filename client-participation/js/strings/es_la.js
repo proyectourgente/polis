@@ -2,9 +2,9 @@
 
 var s = {};
 
-s.agree = "Acordar";
-s.disagree = "Discrepar";
-s.pass = "Pasar / Indeciso";
+s.agree = "Estoy de acuerdo";
+s.disagree = "No estoy de acuerdo";
+s.pass = "No sabe no contesta";
 
 s.modSpam = "Spam";
 s.modOffTopic = "Fuera de Contexto";
@@ -15,6 +15,7 @@ s.modSubmit = "Terminado, próximo comentario";   //Ditto above
 s.x_wrote = "escribió:";
 s.x_tweeted = "tuiteó:";
 s.comments_remaining = "{{num_comments}} restante";
+s.comments_remainings = "{{num_comments}} restantes";
 s.comments_remaining2 = "{{num_comments}} comentarios restantes";
 s.group_123 = "Grupo:";
 s.comment_123 = "Comentario:";

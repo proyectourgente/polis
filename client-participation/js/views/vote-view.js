@@ -154,10 +154,15 @@ module.exports = Handlebones.ModelView.extend({
     // }
 
     var remaining = ctx.remaining;
-    if (remaining > 100) {
-      remaining = "100+";
-    }
-    ctx.remainingString = Strings.comments_remaining.replace("{{num_comments}}", remaining);
+    	
+	if (remaining > 1) {
+	  if (remaining > 100) {
+       remaining = "100+";
+      }
+	  ctx.remainingString = Strings.comments_remainings.replace("{{num_comments}}", remaining);
+    } else {
+      ctx.remainingString = Strings.comments_remaining.replace("{{num_comments}}", remaining);
+	}
     ctx.remainingStringScreenReader = Strings.comments_remaining2.replace("{{num_comments}}", remaining);
     return ctx;
   },

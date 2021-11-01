@@ -206,7 +206,7 @@ img {
   /*border-bottom: 0;*/
   // background: #fafafa;
   /*-webkit-font-smoothing: antialiased;*/
-  font-family: $sans-font;
+  font-family: Montserrat, $sans-font;
   font-weight: 800;
    // prevent clipped right edge and extra padding on left edge on mobile
   padding-left: 0px;
@@ -332,11 +332,7 @@ img {
   height: 33px;
   margin-right: 20px;
 }
-.reactionButton:hover{
-  -ms-transform: scale(1.12,1.12); /* IE 9 */
-  -webkit-transform: scale(1.12,1.12); /* Safari */
-  transform: scale(1.12,1.12);
-}
+
 
 	
 
@@ -909,6 +905,12 @@ svg {
    font-size: 12px;
   }
   
+  .reactionButton:hover{
+    -ms-transform: scale(1.12,1.12); /* IE 9 */
+    -webkit-transform: scale(1.12,1.12); /* Safari */
+    transform: scale(1.12,1.12);
+  }
+	
   .adjust-content{
    -webkit-justify-content: flex-end;
    -moz-justify-content: flex-end;
