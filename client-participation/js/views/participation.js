@@ -200,7 +200,7 @@ module.exports = ConversationView.extend({
     ctx.no_voting = !Utils.userCanVote() || !ctx.is_active;
     ctx.no_topic = !Utils.userCanSeeTopic() || !ctx.topic || ctx.topic.length === 0;
     ctx.no_description = !Utils.userCanSeeDescription() || !ctx.description || ctx.description.length === 0;
-    ctx.no_footer = !Utils.userCanSeeFooter();
+    ctx.no_footer = true //!Utils.userCanSeeFooter();
 
     ctx.help_bgcolor = ctx.help_bgcolor || "#CAEAFF";
     ctx.help_color = ctx.help_color || "#3498DB";
