@@ -237,6 +237,7 @@ const graphUtil = (comments, math, badTids, ptptois) => {
       return _.assign({}, p, {
         gid: p.gid,
         bid: p.bid,
+        name: "hola bb",
         x: xx(p.x),
         y: yy(p.y),
       });
