@@ -257,7 +257,7 @@ VisView = function(params) {
       "</defs>" +
       // "<g>" +
       // '<rect x="'+ (w-150) +'" y="0" width="150" height="25" rx="3" ry="3" fill="#e3e4e5"/>'+
-      // '<text x="'+ (w-150) +'" y="10" width="150" height="25" rx="3" ry="3" fill="##3498db">SHOW LEGEND</text>'+
+      // '<text x="'+ (w-150) +'" y="10" width="150" height="25" rx="3" ry="3" fill="##3f4bff">SHOW LEGEND</text>'+
       // "</g>" +
       "</svg>");
 

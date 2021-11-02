@@ -203,7 +203,7 @@ module.exports = ConversationView.extend({
     ctx.no_footer = true //!Utils.userCanSeeFooter();
 
     ctx.help_bgcolor = ctx.help_bgcolor || "#CAEAFF";
-    ctx.help_color = ctx.help_color || "#3498DB";
+    ctx.help_color = ctx.help_color || "#3f4bff";
 
     var temp = Strings.addPolisToYourSite;
     temp = temp.replace("{{URL}}", polisLogoBase64);
