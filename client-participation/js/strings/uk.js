@@ -1,10 +1,10 @@
-// Copyright (C) 2012-present, The Authors. This program is free software: you can redistribute it and/or  modify it under the terms of the GNU Affero General Public License, version 3, as published by the Free Software Foundation. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. You should have received a copy of the GNU Affero General Public License along with this program. If not, see <http://www.gnu.org/licenses/>.
+// Copyright (C) 2012-present, The Authors. This program is free software: you can redistribute it and/or  modify it under the terms of the GNU Affero General Public License, version 3, as published by the Free Software Foundation. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Affero General Public License for more details. You should have received a copy of the GNU Affero General Public License along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 var s = {};
 
-s.agree = "Estoy de acuerdo";
-s.disagree = "No estoy de acuerdo";
-s.pass = "No sabe no contesta";
+s.agree = "Acuerdo";
+s.disagree = "Desacuerdo";
+s.pass = "Paso";
 
 s.modSpam = "Spam";
 s.modOffTopic = "Fuera de Contexto";
@@ -25,7 +25,7 @@ s.info = "Info";
 s.addPolisToYourSite = "<img style='height: 20px; margin: 0px 4px;' src='{{URL}}'/>";
 s.privacy = "Privacidad";
 s.TOS = "Condiciones de Servicio";
-s.writePrompt = "Compartí tu opinion...";
+s.writePrompt = "Compartí tu opinión...";
 s.anonPerson = "Anónimo";
 s.helpWhatAmISeeingTitle = "¿Qué es lo que veo?";
 s.helpWhatAmISeeing = "Se agrupa la gente que vota de manera similar. Haz clic en un grupo para ver sus puntos de vista compartidos.";
@@ -91,14 +91,14 @@ s.hideTranslationButton = "Deactive el servicio traducción";
 s.thirdPartyTranslationDisclaimer = "Traducción proporcionada por un tercero";
 s.notificationsAlreadySubscribed = "Está suscrito para recibir actualizaciones a esta conversación.";
 s.notificationsGetNotified = "Recibe notificaciones cuando comentarios nuevos aparecen:";
-s.notificationsEnterEmail = "Ingrese su dirección de email para recibir notificaciones cuando lleguen más comentarios:";
+s.notificationsEnterEmail = "Ingresá tu dirección de email para recibir notificaciones cuando lleguen más comentarios:";
 s.labelEmail = "Email";
-s.notificationsSubscribeButton = "Subscribe";
+s.notificationsSubscribeButton = "Suscribirme";
 s.notificationsSubscribeErrorAlert = "Error al suscribirse";
 s.noCommentsYet = "Aún no hay comentarios";
 s.noCommentsYetSoWrite = "Agregue un comentario para comenzar esta conversación.";
 s.noCommentsYetSoInvite = "Comience esta conversación - invite más participantes o agregue un comentario.";
-s.noCommentsYouVotedOnAll = "Yo votó para todos los comentarios.";
+s.noCommentsYouVotedOnAll = "Ya votaste todos los comentarios.";
 s.noCommentsTryWritingOne = "Si tiene algo más para decir, escriba un comentario nuevo.";
 s.convIsClosed = "Esta conversación está cerrada";
 s.noMoreVotingAllowed = "No puede votar más.";
