@@ -1,4 +1,4 @@
-// Copyright (C) 2012-present, The Authors. This program is free software: you can redistribute it and/or  modify it under the terms of the GNU Affero General Public License, version 3, as published by the Free Software Foundation. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY. without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Affero General Public License for more details. You should have received a copy of the GNU Affero General Public License along with this program.  If not, see <http://www.gnu.org/licenses/>;
+// Copyright (C) 2012-present, The Authors. This program is free software: you can redistribute it and/or  modify it under the terms of the GNU Affero General Public License, version 3, as published by the Free Software Foundation. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Affero General Public License for more details. You should have received a copy of the GNU Affero General Public License along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 var s = {};
 
@@ -25,11 +25,7 @@ s.info = "Info";
 s.addPolisToYourSite = "<img style='height: 20px; margin: 0px 4px;' src='{{URL}}'/>";
 s.privacy = "Privacidad";
 s.TOS = "Condiciones de Servicio";
-<<<<<<< Updated upstream
-s.writePrompt = "Compartí tu opinion...";
-=======
 s.writePrompt = "Compartí tu opinión...";
->>>>>>> Stashed changes
 s.anonPerson = "Anónimo";
 s.helpWhatAmISeeingTitle = "¿Qué es lo que veo?";
 s.helpWhatAmISeeing = "Se agrupa la gente que vota de manera similar. Haz clic en un grupo para ver sus puntos de vista compartidos.";

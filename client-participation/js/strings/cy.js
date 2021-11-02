@@ -25,11 +25,7 @@ s.info = "Info";
 s.addPolisToYourSite = "<img style='height: 20px; margin: 0px 4px;' src='{{URL}}'/>";
 s.privacy = "Privacidad";
 s.TOS = "Condiciones de Servicio";
-<<<<<<< Updated upstream
-s.writePrompt = "Compartí tu opinion...";
-=======
 s.writePrompt = "Compartí tu opinión...";
->>>>>>> Stashed changes
 s.anonPerson = "Anónimo";
 s.helpWhatAmISeeingTitle = "¿Qué es lo que veo?";
 s.helpWhatAmISeeing = "Se agrupa la gente que vota de manera similar. Haz clic en un grupo para ver sus puntos de vista compartidos.";
