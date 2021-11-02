@@ -828,6 +828,10 @@ svg {
   font-size: 10px;
 }
 
+.Subscripcion{
+ font-family: 'Montserrat', sans-serif;
+ color: #7f7f7f;
+}
 
 
 /* mobile */
@@ -842,11 +846,10 @@ svg {
   }
   
   .reactionButton{
-	 width: 70%;
+	 width: 28%;
 	 height: 40px;
 	 margin-right: 0px;
-	 margin-bottom: 10px;
-	 font-size: 14px;
+	 margin-bottom: -5px;
   }
   
   .adjust-content{
@@ -905,6 +908,12 @@ svg {
    font-size: 12px;
   }
   
+  
+  .btnEnviar:hover{
+    -ms-transform: scale(1.10,1.10); /* IE 9 */
+    -webkit-transform: scale(1.10,1.10); /* Safari */
+    transform: scale(1.10,1.10);
+  }
   .reactionButton:hover{
     -ms-transform: scale(1.12,1.12); /* IE 9 */
     -webkit-transform: scale(1.12,1.12); /* Safari */
