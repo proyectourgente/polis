@@ -47,7 +47,7 @@
 {{#if empty}}
   <div  style="margin: 20px;" class="Notification Notification--warning"> {{!-- empty scenario div --}}
   {{#if subscribed}}
-    <p class="HeadingF HeadingF--light "><i class="fa fa-bell-o"></i>&nbsp;<strong>{{txt1}}</strong></p>
+    <p class="Subscripcion HeadingF HeadingF--light "><i class="fa fa-bell-o"></i>&nbsp;<strong>{{txt1}}</strong></p>
     <p>{{txt2}}</p>
     <p>
       {{#ifNotIE8}}
@@ -57,33 +57,34 @@
     </p>
   {{else}} {{!-- !subscribed --}}
     {{#if canSubscribe}}
-      <p class="HeadingF HeadingF--light "><i class="fa fa-bell-o"></i>&nbsp;<strong>{{txt1}}</strong></p>
-      <form role="form" class="FormVertical" id="subscribeEmailForm">
+      <p class="Subscripcion HeadingF HeadingF--light "><i class="fa fa-bell-o"></i>&nbsp;<strong>{{txt1}}</strong></p>
+      <form role="form" class="Subscripcion FormVertical" id="subscribeEmailForm">
         {{#if email}}
           <p>{{s.notificationsGetNotified}}</p>
           <pre>{{email}}</pre>
         {{else}} {{!-- !email --}}
           <p>{{s.notificationsEnterEmail}}</p>
           <div class="FormVertical-group">
-            <label class="FormLabel" for="gatekeeperEmailCreate">{{s.labelEmail}}</label>
-            <input type="text" name="email" id="gatekeeperEmailCreate" size="40" class="email FormControl" {{#if readonlyEmail}}readonly{{/if}}>
+            <label class="Subscripcion FormLabel" for="gatekeeperEmailCreate">{{s.labelEmail}}</label>
+            <input type="text" name="email" id="gatekeeperEmailCreate" size="40" class="form-control email FormControl" {{#if readonlyEmail}}readonly{{/if}}>
           </div>
         {{/if}} {{!-- /email --}}
-        <div class="FormVertical-group">
-          <button id="subscribeBtn" class="Btn Btn-primary unselectable" style="
+        <div style="text-align: right;" class="FormVertical-group">
+          <button id="subscribeBtn" class="btnEnviar Btn Btn-primary unselectable" style="
             text-transform: none;
-            font-size: 16px;
-            font-weight: 500;
+            font-size: 12px;
             cursor: pointer;
             border: none;
             border-radius: 4px;
-            background-color: #0090ff;
+            background-color: #3f4bff;
             color: white;
             min-width: 110px;
             height: 40px;
             margin-left: 5px;
             display: inline-block;
             margin-top: 10px;
+			font-family: 'Montserrat', sans-serif;
+            font-weight: 800;
             {{customBtnStyles}}
             ">{{s.notificationsSubscribeButton}}</button>
         </div>
@@ -105,40 +106,15 @@
     </span>
 
     {{! social stuff }}
-    <img
-      src="{{social.img}}"
-      alt=""
-      style="
-        width: 36px;
-        min-height: 36px;
-        min-width: 36px;
-        margin-left: 10px;
-        margin-top: 10px;
-        border-radius: 3px;
-        border: 1px solid #ccc;
-        "
-      ></img>
     <p
       style="
         display: inline;
         position: relative;
         top: -3px;
         margin-left: 5px;
-        font-weight: 600;
-		    font-family: 'Montserrat', sans-serif;
     ">
-      {{social.name}}
       <span style="
       ">
-        {{#if tweet_id}}
-          <a href="https://twitter.com/{{social.screen_name}}/status/{{tweet_id}}" target="_blank">{{s.x_tweeted}}</a>
-        {{else}} {{!-- !tweet_id --}}
-          {{#if quote_src_url}}
-            <a href="{{quote_src_url}}" target="_blank">{{s.x_wrote}}</a>
-          {{else}}
-            {{s.x_wrote}}
-          {{/if}}
-        {{/if}} {{!-- /tweet_id --}}
       </span>
       <span aria-hidden="true" style="
         float:right;
