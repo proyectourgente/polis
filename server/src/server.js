@@ -4055,19 +4055,17 @@ Email verified! You can close this tab or hit the back button.
 
   function sendNotificationEmail(uid, url, conversation_id, email, remaining) {
     let subject =
-      "New statements to vote on (conversation " + conversation_id + ")"; // Not sure if putting the conversation_id is ideal, but we need some way to ensure that the notifications for each conversation appear in separte threads.
-    let body = "There are new statements available for you to vote on here:\n";
+      "Hay nuevas preguntas para votar en luc.com.uy"; 
+    let body = "Hacé click para votar en las nuevas preguntas:\n";
     body += "\n";
     body += url + "\n";
     body += "\n";
     body +=
-      "You're receiving this message because you're signed up to receive Polis notifications for this conversation. You can unsubscribe from these emails by clicking this link:\n";
+      "Estás recibiendo este correo porque te suscribiste para recibir notificaciones de luc.com.uy, podés cancelar tu suscripción a través del siguiente link:\n";
     body += createNotificationsUnsubscribeUrl(conversation_id, email) + "\n";
     body += "\n";
-    body +=
-      "If for some reason the above link does not work, please reply directly to this email with the message 'Unsubscribe' and we will remove you within 24 hours.";
     body += "\n";
-    body += "Thanks for your participation";
+    body += "¡Gracias por participar!";
     return sendEmailByUid(uid, subject, body);
   }
 
@@ -12955,9 +12953,9 @@ CREATE TABLE slack_user_invites (
     let serverName = getServerNameWithProtocol(req);
     let body =
       "" +
-      "Welcome to pol.is!\n" +
+      "Bienvenido a luc.com.uy\n" +
       "\n" +
-      "Click this link to open your account:\n" +
+      "Hacé click en el link para acceder a la conversación:\n" +
       "\n" +
       serverName +
       "/ot/" +
@@ -12966,12 +12964,12 @@ CREATE TABLE slack_user_invites (
       suzinvite +
       "\n" +
       "\n" +
-      "Thank you for using Polis\n";
+      "¡Gracias por participar!\n";
 
     return sendTextEmail(
       POLIS_FROM_ADDRESS,
       email,
-      "Join the pol.is conversation!",
+      "luc.com.uy",
       body
     );
   }
