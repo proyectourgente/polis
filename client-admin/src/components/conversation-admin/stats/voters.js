@@ -30,7 +30,7 @@ class Voters extends React.Component {
           domainPadding={{ x: 0, y: [0, 20] }}
           scale={{ x: 'time' }}>
           <VictoryArea
-            style={{ data: { fill: '#03a9f4' } }}
+            style={{ data: { fill: '#3f4bff' } }}
             data={firstVoteTimes.map((d, i) => {
               return { x: new Date(d), y: i }
             })}
