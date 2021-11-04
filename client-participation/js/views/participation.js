@@ -134,6 +134,7 @@ module.exports = ConversationView.extend({
     ctx.hasFacebook = userObject.hasFacebook;
     ctx.hasTwitter = userObject.hasTwitter;
     ctx.hasFbAndTw = ctx.hasFacebook && ctx.hasTwitter;
+    ctx.hasFbOrTw = ctx.hasFacebook || ctx.hasTwitter;
     ctx.auth_opt_fb_computed = preload.firstConv.auth_opt_fb_computed;
     ctx.auth_opt_tw_computed = preload.firstConv.auth_opt_tw_computed;
     ctx.auth_prompt_any_social = ctx.auth_opt_fb_computed || ctx.auth_opt_tw_computed;
