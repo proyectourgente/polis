@@ -266,7 +266,7 @@
   {{view readReactView}}
 </span>
 
-{{#unless hasFbAndTw}}
+{{#unless hasFbOrTw}}
 <div
   id="socialButtonsUnderReadReact"
   class=""
@@ -278,7 +278,6 @@
     {{s.socialConnectPrompt}}
   </p>
   <div>
-    {{#unless hasTwitter}}
     {{#unless hasFacebook}}
       <button class="facebookButton" id="facebookButtonPtpt">
         <span class="socialButtonText">
@@ -294,9 +293,7 @@
         </span>
       </button>
     {{/unless}}
-     {{/unless}}
 
- {{#unless hasFacebook}}
     {{#unless hasTwitter}}
       <button class="twitterButton" id="twitterButtonPtpt">
       <span class="socialButtonText">
@@ -312,7 +309,6 @@
       </span>
       </button>
     {{/unless}}
-     {{/unless}}
   </div>
 </div>
 {{/unless}}  {{!-- hasFbAndTw --}}
