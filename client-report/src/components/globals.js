@@ -12,9 +12,9 @@ export const brandColors = {
   agreeColorblind: "rgb(0, 140, 230)",
   disagree: "rgb(231, 76, 60)",
   pass: "rgb(230,230,230)",
-  comment: "#03a9f4",
+  comment: "#3f4bff",
   yellowForRadial: "#DFE74D",
-  blue: "#03A9F4",
+  blue: "#3f4bff",
   mediumGrey: "rgb(130,130,130)",
   lightgrey: "rgb(215,215,215)",
 };
