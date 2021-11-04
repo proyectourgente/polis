@@ -278,7 +278,6 @@
     {{s.socialConnectPrompt}}
   </p>
   <div>
-    {{#if auth_opt_fb_computed}}
     {{#unless hasFacebook}}
       <button class="facebookButton" id="facebookButtonPtpt">
         <span class="socialButtonText">
@@ -294,9 +293,7 @@
         </span>
       </button>
     {{/unless}}
-    {{/if}}
 
-    {{#if auth_opt_tw_computed}}
     {{#unless hasTwitter}}
       <button class="twitterButton" id="twitterButtonPtpt">
       <span class="socialButtonText">
@@ -312,7 +309,6 @@
       </span>
       </button>
     {{/unless}}
-    {{/if}}
   </div>
 </div>
 {{/unless}}  {{!-- hasFbAndTw --}}
