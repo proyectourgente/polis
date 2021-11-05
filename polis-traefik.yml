@@ -16,6 +16,7 @@ services:
       - TWITTER_CONSUMER_SECRET=${TWITTER_CONSUMER_SECRET}
       - DEV_MODE=false
       - MATH_ENV=dev
+      - PRIMARY_POLIS_URL=test.luc.com.uy
       - DOMAIN_OVERRIDE=cuestionario.luc.com.uy
     build:
       context: ./server
