@@ -40,6 +40,7 @@ services:
       - "traefik.http.routers.polis-server.tls.certresolver=le"
       - "traefik.http.services.polis-server.loadbalancer.server.port=5000"
       - "traefik.enable=true"
+    restart: on-failure:5
 
   math:
     container_name: polis-math
