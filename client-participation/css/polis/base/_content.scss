@@ -48,9 +48,17 @@
   text-transform: uppercase;
   font-weight: 900;
   text-align: center;
-  font-size: 30px;
+  font-size: 22px;
   letter-spacing: 0.04em;
   margin-top: 2.5rem;
+}
+
+.SubHeadingGroups {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-size: 14px;
+  color: #7f7f7f;
+  margin-bottom: 10px;
 }
 
 /* colin created for tabs in conversation view, modify or rename if necessary and update conversationTabs.handlebars */
