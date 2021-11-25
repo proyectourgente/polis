@@ -869,9 +869,18 @@ svg {
   #loginButtonInTabsBar {
     font-size: 14px !important; // !important since there are inline styles
   }
-
+  .reactionButton{
+	width: 30%;
+	font-size: 9pt;
+  }
 }
 
+@media (max-width: 330px) {
+
+  .reactionButton{
+	font-size: 8pt;
+  }
+}
 
 
 /* Everything but mobile */
