@@ -206,7 +206,7 @@ img {
   /*border-bottom: 0;*/
   // background: #fafafa;
   /*-webkit-font-smoothing: antialiased;*/
-  font-family: Montserrat, $sans-font;
+  font-family: 'Montserrat', $sans-font;
   font-weight: 800;
    // prevent clipped right edge and extra padding on left edge on mobile
   padding-left: 0px;
@@ -695,12 +695,14 @@ svg {
   cursor: pointer;
   border: 0px;
   color: white;
-  font-family: $sans-font;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   padding: 8px 12px;
   border-radius: 5px;
   font-size: 14px;
-
+  width: 220px;
+  margin: 10px;
+  
   i {
     font-size: 24px;
     color: white;
@@ -714,7 +716,6 @@ svg {
 }
 
 .facebookButton {
-  margin-right: 10px;
   background-color: #3b5998;
 }
 

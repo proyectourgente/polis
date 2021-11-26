@@ -82,7 +82,7 @@ s.participantHelpWelcomeText = "Bienvenido a un nuevo tipo de discusión - <span
 s.participantHelpGroupsText = "Cada una de tus respuestas te acerca a algunas personas y te aleja de otras, permitiendo agrupar a la gente que opina de manera similar. <span style='font-weight: 700;'>¿Estás donde pensabas?</span>. Hacé click en un grupo para ver los puntos de vista que comparten sus miembros <a style='font-weight: 700; cursor: pointer; text-decoration: underline' id='helpTextGroupsExpand'>...más</a>";
 s.participantHelpGroupsNotYetText = "La visualización aparecerá cuando 7 participantes votan";
 s.helpWhatAreGroupsDetail = "<p>Probablemente has visto los 'productos recomendados' en los sitios de compras, o las 'películas recomendadas' de los servicios de streaming. Esos servicios usan algoritmos para agruparte con gente que compra y mira cosas similares y entonces mostrarte cosas compradas o miradas por ellos.</p> <p>Cuando votás en un comentario de este cuestionario pasás a formar parte del grupo de gente que votó de manera similar. Aquí abajo puedes explorar los grupos. Cada grupo se compone de gente con opiniones similares. Hacé click en un grupo para ver cuáles opiniones lo unen y cuáles lo separan de los demás. ¿Estás cerca de la gente que esperabas?</p>";
-s.socialConnectPrompt = "Conéctate para ver tus amigos y la gente que sigues en la visualización.";
+s.socialConnectPrompt = "Conectate para ver a tus amigos y a la gente que seguís en los grupos de opinión.";
 s.connectFbButton = "Conecta con Facebook";
 s.connectTwButton = "Conecta con Twitter";
 s.polis_err_reg_fb_verification_email_sent = "Por favor, chequea tu email para el enlace de verificación, y entonces regresa aquí para continuar.";
