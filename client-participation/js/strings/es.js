@@ -47,12 +47,13 @@ s.opinionGroups = "Grupos de Opinión";
 
 s.pctAgreed = "{{pct}}% Acordaron";
 s.pctDisagreed = "{{pct}}% Discreparon";
-s.pctAgreedLong = "{{pct}}% de todos los que votaron {{comment_id}} acordaron.";
+s.pctAgreedLong = "{{pct}}% de todos los que votaron acordaron.";
 s.pctAgreedOfGroup = "{{pct}}% del Grupo {{group}} Acordaron";
 s.pctDisagreedOfGroup = "{{pct}}% del Grupo {{group}} Discreparon";
-s.pctDisagreedLong = "{{pct}}% de todos los que votaron {{comment_id}} discreparon.";
-s.pctAgreedOfGroupLong = "{{pct}}% de los del grupo {{group}} que votaron en el comentario {{comment_id}} acordaron.";
-s.pctDisagreedOfGroupLong = "{{pct}}% de los del grupo {{group}} que votaron por el comentario {{comment_id}} discreparon.";
+s.pctDisagreedLong = "{{pct}}% de todos los que votaron discreparon.";
+s.pctAgreedOfGroupLong = "{{pct}}% de los del grupo {{group}} que votaron en este comentario acordaron.";
+s.pctDisagreedOfGroupLong = "{{pct}}% de los del grupo {{group}} que votaron en este comentario discreparon.";
+
 s.commentSent = "Comentario Enviado! Otros participantes verán tu comentario y acordarán or discreparán con él.";
 s.commentSendFailed = "Hubo un error procesando su comentario.";
 s.commentSendFailedEmpty = "Hubo un error procesando su comentario - Comentario incompleto.";
