@@ -1,2 +1,5 @@
 *~
 .env
+
+# IDE files
+.idea
