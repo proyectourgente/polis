@@ -5191,7 +5191,6 @@ Email verified! You can close this tab or hit the back button.
       "friends",
       "gender",
       "id",
-      "is_verified",
       "last_name",
       "link",
       "locale",
