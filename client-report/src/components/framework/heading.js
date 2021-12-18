@@ -26,7 +26,7 @@ const Content = ({conversation}) => {
           margin: 0,
         }}>
         <a
-          style={{color: "#3f4bff", fontWeight: 700, textDecoration: "none"}}
+          style={{color: "#4b5563", fontWeight: 700, textDecoration: "none"}}
           href={`https://pol.is/${conversation.conversation_id}`}>pol.is/{conversation.conversation_id}
         </a>
       </p>

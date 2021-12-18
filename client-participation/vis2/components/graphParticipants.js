@@ -10,7 +10,7 @@ const Participant = ({ ptpt, tweenX, tweenY }) => {
       <clipPath id={"social_image_clip"}>
         <circle cx={0} cy={0} r={15} />
       </clipPath>
-      {ptpt.isSelf ? <circle cx={0} cy={0} r={17} stroke={"#3f4bff"} strokeWidth={4} /> : ""}
+      {ptpt.isSelf ? <circle cx={0} cy={0} r={17} stroke={"#4b5563"} strokeWidth={4} /> : ""}
       <image
         filter={"url(#grayscale)"}
         clipPath={"url(#social_image_clip)"}

@@ -150,10 +150,10 @@ class ParticipantsGraph extends React.Component {
           // <button
           //   style={{
           //     color: this.state.showContour ? "white" : "black",
-          //     border: this.state.showContour ? "1px solid #3f4bff" : "1px solid black",
+          //     border: this.state.showContour ? "1px solid #4b5563" : "1px solid black",
           //     cursor: "pointer",
           //     borderRadius: 3,
-          //     background: this.state.showContour ? "#3f4bff" : "none",
+          //     background: this.state.showContour ? "#4b5563" : "none",
           //     padding: 4,
           //     marginRight: 20
           //   }}
@@ -168,10 +168,10 @@ class ParticipantsGraph extends React.Component {
           <button
             style={{
               color: this.state.showAxes ? "white" : "black",
-              border: this.state.showAxes ? "1px solid #3f4bff" : "1px solid black",
+              border: this.state.showAxes ? "1px solid #4b5563" : "1px solid black",
               cursor: "pointer",
               borderRadius: 3,
-              background: this.state.showAxes ? "#3f4bff" : "none",
+              background: this.state.showAxes ? "#4b5563" : "none",
               padding: 4,
               marginRight: 20
             }}
@@ -181,10 +181,10 @@ class ParticipantsGraph extends React.Component {
           <button
             style={{
               color: this.state.showRadialAxes ? "white" : "black",
-              border: this.state.showRadialAxes ? "1px solid #3f4bff" : "1px solid black",
+              border: this.state.showRadialAxes ? "1px solid #4b5563" : "1px solid black",
               cursor: "pointer",
               borderRadius: 3,
-              background: this.state.showRadialAxes ? "#3f4bff" : "none",
+              background: this.state.showRadialAxes ? "#4b5563" : "none",
               padding: 4,
               marginRight: 20
             }}
@@ -196,10 +196,10 @@ class ParticipantsGraph extends React.Component {
           {/* <button
             style={{
               color: this.state.consensusDivisionColorScale ? "white" : "black",
-              border: this.state.consensusDivisionColorScale ? "1px solid #3f4bff" : "1px solid black",
+              border: this.state.consensusDivisionColorScale ? "1px solid #4b5563" : "1px solid black",
               cursor: "pointer",
               borderRadius: 3,
-              background: this.state.consensusDivisionColorScale ? "#3f4bff" : "none",
+              background: this.state.consensusDivisionColorScale ? "#4b5563" : "none",
               padding: 4,
               marginRight: 20
             }}
@@ -212,10 +212,10 @@ class ParticipantsGraph extends React.Component {
           <button
             style={{
               color: this.state.showComments ? "white" : "black",
-              border: this.state.showComments ? "1px solid #3f4bff" : "1px solid black",
+              border: this.state.showComments ? "1px solid #4b5563" : "1px solid black",
               cursor: "pointer",
               borderRadius: 3,
-              background: this.state.showComments ? "#3f4bff" : "none",
+              background: this.state.showComments ? "#4b5563" : "none",
               padding: 4,
               marginRight: 20
             }}
@@ -225,10 +225,10 @@ class ParticipantsGraph extends React.Component {
           <button
             style={{
               color: this.state.showParticipants ? "white" : "black",
-              border: this.state.showParticipants ? "1px solid #3f4bff" : "1px solid black",
+              border: this.state.showParticipants ? "1px solid #4b5563" : "1px solid black",
               cursor: "pointer",
               borderRadius: 3,
-              background: this.state.showParticipants ? "#3f4bff" : "none",
+              background: this.state.showParticipants ? "#4b5563" : "none",
               padding: 4,
               marginRight: 20
             }}
@@ -238,10 +238,10 @@ class ParticipantsGraph extends React.Component {
           <button
             style={{
               color: this.state.showGroupOutline ? "white" : "black",
-              border: this.state.showGroupOutline ? "1px solid #3f4bff" : "1px solid black",
+              border: this.state.showGroupOutline ? "1px solid #4b5563" : "1px solid black",
               cursor: "pointer",
               borderRadius: 3,
-              background: this.state.showGroupOutline ? "#3f4bff" : "none",
+              background: this.state.showGroupOutline ? "#4b5563" : "none",
               padding: 4,
               marginRight: 20
             }}
@@ -251,10 +251,10 @@ class ParticipantsGraph extends React.Component {
           <button
             style={{
               color: this.state.showGroupLabels ? "white" : "black",
-              border: this.state.showGroupLabels ? "1px solid #3f4bff" : "1px solid black",
+              border: this.state.showGroupLabels ? "1px solid #4b5563" : "1px solid black",
               cursor: "pointer",
               borderRadius: 3,
-              background: this.state.showGroupLabels ? "#3f4bff" : "none",
+              background: this.state.showGroupLabels ? "#4b5563" : "none",
               padding: 4,
               marginRight: 20
             }}

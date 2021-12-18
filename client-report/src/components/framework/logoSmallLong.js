@@ -25,8 +25,8 @@ class PolisLogo extends React.Component {
           <g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
               <g id="Artboard-7-Copy-7">
                   <g id="Group" transform="translate(3.000000, 3.000000)">
-                    <polygon id="Polygon-1" fill="#3f4bff" points="20.4588192 0 40.9176384 11.75 40.9176384 35.25 20.4588192 47 9.6261623e-15 35.25 -3.55271368e-15 11.75"></polygon>
-                    <path d="M5.85714286,13.9834711 L7.41904762,17.8677686" id="Line" stroke="#3f4bff" strokeWidth="0.3" strokeLinecap="square"></path>
+                    <polygon id="Polygon-1" fill="#4b5563" points="20.4588192 0 40.9176384 11.75 40.9176384 35.25 20.4588192 47 9.6261623e-15 35.25 -3.55271368e-15 11.75"></polygon>
+                    <path d="M5.85714286,13.9834711 L7.41904762,17.8677686" id="Line" stroke="#4b5563" strokeWidth="0.3" strokeLinecap="square"></path>
                     <text id="p." fontFamily="Georgia" fontSize="27" fontWeight="normal" fill="rgb(255,255,255)">
                     <tspan x="12.1047619" y="28.3305785">p.</tspan>
                     </text>
@@ -49,8 +49,8 @@ class PolisLogo extends React.Component {
                     <ellipse id="Oval-17" fill="rgb(255,255,255)" cx="28.3095238" cy="37.8719008" rx="0.585714286" ry="0.582644628"></ellipse>
                     <ellipse id="Oval-17" fill="rgb(255,255,255)" cx="28.3095238" cy="33.9876033" rx="0.585714286" ry="0.582644628"></ellipse>
                     <ellipse id="Oval-17" fill="rgb(255,255,255)" cx="32.2142857" cy="35.1528926" rx="0.585714286" ry="0.582644628"></ellipse>
-                    <path d="M16.2047619,8.35123967 L23.0380952,10.4876033" id="Line" stroke="#3f4bff" strokeWidth="0.3" strokeLinecap="square"></path>
-                    <path d="M14.8380952,10.8760331 L16.0095238,8.54545455" id="Line" stroke="#3f4bff" strokeWidth="0.3" strokeLinecap="square"></path>
+                    <path d="M16.2047619,8.35123967 L23.0380952,10.4876033" id="Line" stroke="#4b5563" strokeWidth="0.3" strokeLinecap="square"></path>
+                    <path d="M14.8380952,10.8760331 L16.0095238,8.54545455" id="Line" stroke="#4b5563" strokeWidth="0.3" strokeLinecap="square"></path>
                   </g>
               </g>
           </g>

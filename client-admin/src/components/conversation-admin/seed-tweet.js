@@ -110,7 +110,7 @@ class ModerateCommentsSeed extends React.Component {
         <div>
           <button
             style={{
-              backgroundColor: '#3f4bff',
+              backgroundColor: '#4b5563',
               color: 'white'
             }}
             onClick={this.handleSubmitSeed.bind(this)}>

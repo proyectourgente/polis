@@ -29,7 +29,7 @@ class Commenters extends React.Component {
           domainPadding={{ x: 0, y: [0, 20] }}
           scale={{ x: 'time' }}>
           <VictoryArea
-            style={{ data: { fill: '#3f4bff' } }}
+            style={{ data: { fill: '#4b5563' } }}
             data={firstCommentTimes.map((d, i) => {
               return { x: new Date(d), y: i }
             })}

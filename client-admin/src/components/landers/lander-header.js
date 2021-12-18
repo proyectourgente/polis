@@ -21,7 +21,7 @@ class Header extends Component {
             <Link sx={{ variant: 'links.nav' }} to="/home">
               <Logomark
                 style={{ marginRight: 10, position: 'relative', top: 6 }}
-                fill={'#3f4bff'}
+                fill={'#4b5563'}
               />
               Polis
             </Link>

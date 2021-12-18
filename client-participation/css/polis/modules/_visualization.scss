@@ -138,8 +138,8 @@ $HULL_HOVER_COLOR: #f5f5f5;
 }
 .hull_selection.active_group {
   @if $COLOR_SELECTED_HULL {
-    stroke: #3f4bff;
-    border-color: #3f4bff; // for html elements
+    stroke: #4b5563;
+    border-color: #4b5563; // for html elements
 
     stroke-width: 1px;
     stroke: blue;

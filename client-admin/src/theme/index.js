@@ -25,10 +25,10 @@ export default {
   colors: {
     // text: "#FFF",
     text: '#60656F',
-    // background: "#3f4bff",
+    // background: "#4b5563",
     // primary: "#FFF",
     background: '#FFF',
-    primary: '#3f4bff',
+    primary: '#4b5563',
     secondary: '#F6F7F8',
     mediumGray: '#60656F'
   },
