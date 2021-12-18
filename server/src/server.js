@@ -6319,6 +6319,7 @@ Email verified! You can close this tab or hit the back button.
         comments = comments.map(function (c) {
           let hasTwitter = c.social && c.social.twitter_user_id;
           if (hasTwitter) {
+            console.log("#### TWITTER ", c.social.twitter_profile_image_url_https)
             c.social.twitter_profile_image_url_https =
               getServerNameWithProtocol(req) +
               "/twitter_image?id=" +
@@ -10777,7 +10778,7 @@ Thanks for using Polis!
       "twitter_users.followers_count as tw__followers_count, " +
       // "twitter_users.friends_count as tw__friends_count, " +
       "twitter_users.verified as tw__verified, " +
-      // "twitter_users.profile_image_url_https as tw__profile_image_url_https, " +
+      "twitter_users.profile_image_url_https as tw__profile_image_url_https, " +
       "twitter_users.location as tw__location, " +
       // "twitter_users.response as tw__response, " +
       // "twitter_users.modified as tw__modified, " +
@@ -11631,10 +11632,11 @@ Thanks for using Polis!
             x.isSelf = true;
           }
           if (x.twitter) {
-            x.twitter.profile_image_url_https =
-              getServerNameWithProtocol(req) +
-              "/twitter_image?id=" +
-              x.twitter.twitter_user_id;
+            console.log("FAMOUS TWITTER IMG ", x.twitter)
+            //x.twitter.profile_image_url_https =
+            //  getServerNameWithProtocol(req) +
+            //  "/twitter_image?id=" +
+            //  x.twitter.twitter_user_id;
           }
           // // don't include FB info to non-friends
           // if (!x.is_fb_friend && !x.isSelf) {
@@ -13834,10 +13836,11 @@ CREATE TABLE slack_user_invites (
         }
         data = data[0];
         let url = data.profile_image_url; // not https to save a round-trip
-
+        console.log("##### TWITTER IMAGE", url)
         let finished = false;
         http
           .get(url, function (twitterResponse) {
+            console.log("###### TWITTER RESPONSE", twitterResponse)
             if (!finished) {
               clearTimeout(timeoutHandle);
               finished = true;
